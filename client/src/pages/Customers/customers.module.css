@@ -1,0 +1,21 @@
+.general {
+    width: 100%;
+    height: 100%;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.centerme {
+    margin-top: 30px;
+}
+.showData {
+    margin: 20px;
+    width: 50px;
+    border: 2px solid blue;
+    border-radius: 2px;
+    text-align: right;
+}
+.shortField{
+    margin: 20px;
+    align-content: center;
+    width: 80%;
+}

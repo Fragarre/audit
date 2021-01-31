@@ -1,0 +1,94 @@
+type Usuario {
+  id: ID
+  Nombre: String
+  Apellido: String
+  user: String
+  password: String
+  role: String
+  }
+type Token{
+  Token: String
+}
+type CertificationRule {
+  id: ID
+  CertRule: String
+}
+type Customer {
+  id: ID
+  Name: String
+  Short: String
+  Nif:String
+  Address:String
+  Place: String
+  Province:String
+  Country:String
+  Vat:Float
+  Ret:Float
+  PostalCode:String
+  Color: String
+}
+type EndClient {
+  id: ID
+  Client: String
+  Kilometers:Int
+}
+type EventType {
+  id: ID
+  EventType: String
+  Code: String
+}
+type Province {
+  id: ID
+  Province: String
+  Code: String
+}
+type ScheduleItem{
+  id: ID
+  Id: Int
+  Subject: String
+  Description: String
+  StartTime:String
+  EndTime:String
+  InitialTime: String
+  IsAllDay: Boolean
+  EndClient:String
+  EventType: String
+  CertRule:String
+  Province: String,
+  Valid: String
+  OtherRevenues: Float
+  AuditRevenues:Float
+  Parte: Boolean
+  Created:String
+}
+type SchedForecast{
+  Subject: String
+  StartTime:String
+  EndClient:String
+  EventType: String
+  CertRule:String
+  OtherRevenues: Float
+  AuditRevenues:Float
+  Parte: Boolean
+}
+type ForecastData{
+  Month: Int
+  EventType: String
+  Subject: String
+  EndClient: String
+  CertRule: String
+  AuditRevenues: Float
+  OtherRevenues: Float
+}
+type ExcelData{
+    StartTime: String
+    Subject: String
+    Province: String
+    Parte: Boolean
+    EndClient: String
+    InitialTime: String
+    EventType: String
+    CertRule: String
+    Description: String
+}
+

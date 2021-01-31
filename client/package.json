@@ -1,0 +1,62 @@
+{
+  "name": "tmplate-syncfusion",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.3.6",
+    "@ramonak/react-excel": "^1.0.1",
+    "@syncfusion/ej2-react-buttons": "^18.4.30",
+    "@syncfusion/ej2-react-calendars": "^18.4.31",
+    "@syncfusion/ej2-react-charts": "^18.4.30",
+    "@syncfusion/ej2-react-dropdowns": "^18.4.32",
+    "@syncfusion/ej2-react-grids": "^18.4.30",
+    "@syncfusion/ej2-react-inputs": "^18.4.32",
+    "@syncfusion/ej2-react-navigations": "^18.4.33",
+    "@syncfusion/ej2-react-notifications": "^18.4.30",
+    "@syncfusion/ej2-react-popups": "^18.4.30",
+    "@syncfusion/ej2-react-schedule": "^18.4.30",
+    "axios": "^0.21.1",
+    "bootstrap": "4.5.0",
+    "classnames": "2.2.6",
+    "cookie-parser": "1.4.5",
+    "debug": "4.1.1",
+    "dotenv": "^8.2.0",
+    "fs-extra": "9.0.1",
+    "graphql": "^15.4.0",
+    "history": "^4.10.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1",
+    "react": "16.13.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "16.13.1",
+    "react-export-excel": "^0.5.3",
+    "react-file-download": "^0.3.5",
+    "react-intl": "^5.10.14",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "^3.4.4",
+    "uuid": "8.2.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^5.1.7",
+    "concurrently": "5.2.0",
+    "json-loader": "^0.5.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "node ./buildScript",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src/**/*.js src/**/*.jsx"
+  },
+  "proxy": "http://localhost:3001",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

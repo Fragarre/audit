@@ -1,0 +1,61 @@
+input UsuarioInput {
+  Nombre: String
+  Apellido: String
+  user: String
+  password: String
+  role: String
+}
+input AutenticarInput{
+  user: String
+  password: String
+}
+input CertificationRuleInput {
+  CertRule: String
+}
+input CustomerInput {
+  Name: String
+  Short: String
+  Nif:String
+  Address:String
+  Place: String
+  Province:String
+  Country:String
+  Vat:Float
+  Ret:Float
+  PostalCode:String
+  Color: String
+}
+input EndClientInput {
+  Client: String
+  Kilometers:Int
+}
+input EventTypeInput {
+EventType: String
+Code: String
+}
+input ProvinceInput {
+  Province: String
+  Code: String
+}
+input ScheduleItemInput {
+  Subject: String
+  Description: String
+  StartTime: String
+  EndTime: String
+  InitialTime: String
+  EventType: String
+  IsAllDay: Boolean
+  EndClient: String
+  CertRule: String
+  Province: String
+  Valid: String
+  OtherRevenues: Float
+  AuditRevenues: Float
+  Parte: Boolean
+}
+
+
+
+
+
+

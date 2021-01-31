@@ -1,0 +1,31 @@
+{
+  "name": "auditserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "@graphql-tools/load-files": "^6.0.3",
+    "@graphql-tools/merge": "^6.0.3",
+    "apollo-server-express": "^2.19.2",
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "excel4node": "^1.7.2",
+    "exceljs": "^4.2.0",
+    "express": "^4.17.1",
+    "graphql-import-node": "^0.0.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.5",
+    "mongoose-sequence": "^5.3.1"
+  }
+}

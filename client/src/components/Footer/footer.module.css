@@ -1,0 +1,17 @@
+﻿.footer {
+  background-color: #1d1d1d;
+  height: 60px;
+}
+
+.title {
+  color: #fff;
+}
+
+.description {
+  color: #fff;
+}
+
+.footerlink,
+.footerlink:hover {
+  color: #fff;
+}

@@ -1,0 +1,155 @@
+.e-schedule .e-appointment-details {
+    padding: 0 !important;
+}
+
+.agendaTemplate{
+    color: white;
+}
+
+.templatePrevistoWrap {
+    background: red;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+}
+
+.templateConfirmadoWrap {
+    background: yellow;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 10px;
+    font-weight: 500;
+    color: black;
+}
+
+.templateRealizadoWrap {
+    background: blue;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+}
+
+.templatePend_FacturarWrap {
+    background: orange;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+}
+.templaterFacturadoWrap {
+    background: green;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+}
+
+.previsto {
+    width: 80%;
+    background: red;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+.confirmado {
+    background: yellow;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 10px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
+
+.realizado {
+    background: blue;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+.pendFact {
+    background: orange;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+.facturado {
+    background: green;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+.tooltipWrap {
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+}
+.scheduleTitleContainer{
+    width: 90%;
+    display: inline-block;
+    text-align: center;
+    font-weight: 500;
+}
+.schedulerComponent{
+    float: left;
+    width: 90%;
+}
+.sideTitleContainer{
+    display:inline-block;
+    width: 10%;
+    margin-top: 40px;
+    padding-left: 40px;
+    text-align: left;
+    font-weight: 500;
+}
+.sideComponent{
+    margin-top: 20px;
+    padding-left: 20px;
+    float: right;
+    width: 10%;
+}

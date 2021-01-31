@@ -1,0 +1,21 @@
+  type Mutation {
+    nuevoUsuario(input: UsuarioInput): Usuario
+    autenticarUsuario(input: AutenticarInput): String
+    newScheduleItem(input: ScheduleItemInput): String
+    updateScheduleItem(Id: Int, input: ScheduleItemInput): ScheduleItem
+    deleteScheduleItem(Id: Int): String
+    newCertificationRule(input: CertificationRuleInput):CertificationRule
+    editCertificationRule(id: ID, input: CertificationRuleInput):String
+    deleteCertificationRule(id: ID):String
+    newCustomer(input: CustomerInput): String
+    deleteCustomer(id: ID): String
+    editCustomer(id: ID, input: CustomerInput): String
+    newEndClient(input: EndClientInput): String
+    editEndClient(id: ID, input: EndClientInput): String
+    deleteEndClient(id: ID): String
+    newEventType(input: EventTypeInput): String
+    editEventType(id: ID, input: EventTypeInput): String
+    deleteEventType(id: ID): String
+    newProvince(input: ProvinceInput): String
+    resetCounter(Id: String): String
+  }

@@ -1,0 +1,12 @@
+type Query {
+  getUsuarios: [Usuario]
+  getScheduleItems: [ScheduleItem]
+  getSchedForecast: [SchedForecast]
+  getCertificationRules: [CertificationRule]
+  getCustomers: [Customer]
+  getEndClients:[EndClient]
+  getEventTypes:[EventType]
+  getProvinces:[Province]
+  getForecastData:[ForecastData]
+  getExcelData: [ExcelData]
+}
